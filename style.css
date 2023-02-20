@@ -49,3 +49,16 @@ body {
   top: 0;
   left: 0;
 }
+.hover-overly {
+  transition: all 0.3s ease-in-out;
+  border-radius: 9px;
+  opacity: 0;
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.5) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
