@@ -20,3 +20,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.pic {
+  width: 64px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
