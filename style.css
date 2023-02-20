@@ -111,3 +111,15 @@ body {
   background-color: #fff;
   color: #000;
 }
+.text-dis {
+  font-weight: 500;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.box-card:hover .box-continer {
+  top: 50%;
+}
+.box-card:hover .text-dis {
+  opacity: 1;
+}
