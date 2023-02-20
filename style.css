@@ -83,3 +83,10 @@ body {
   margin-bottom: 12px;
   transition: all 0.4s ease-out;
 }
+.box-content-a {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
