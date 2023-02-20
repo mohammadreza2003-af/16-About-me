@@ -123,13 +123,34 @@ body {
 .box-card:hover .text-dis {
   opacity: 1;
 }
+@media (max-width: 1000px) {
+  .box-card {
+    width: 70%;
+  }
+}
 @media (max-width: 900px) {
   .box-card {
-    width: 60%;
+    width: 70%;
   }
 }
 @media (max-width: 600px) {
   .box-card {
     width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .box-card {
+    width: 90%;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 300px) {
+  .box-card {
+    width: 90%;
+  }
+  html {
+    font-size: 12px;
   }
 }
