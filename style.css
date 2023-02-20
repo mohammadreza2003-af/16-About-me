@@ -62,3 +62,7 @@ body {
   top: 0;
   left: 0;
 }
+.box-card:hover .hover-overly {
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.5) 50%);
+  opacity: 1;
+}
