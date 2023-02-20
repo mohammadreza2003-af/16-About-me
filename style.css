@@ -123,6 +123,7 @@ body {
 .box-card:hover .text-dis {
   opacity: 1;
 }
+/*   media   */
 @media (max-width: 1000px) {
   .box-card {
     width: 70%;
