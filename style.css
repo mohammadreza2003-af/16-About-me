@@ -38,3 +38,14 @@ body {
   width: 50%;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
+.overly {
+  border-radius: 9px;
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.5) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
