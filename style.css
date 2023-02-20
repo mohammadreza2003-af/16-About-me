@@ -90,3 +90,24 @@ body {
   flex-direction: column;
   margin-bottom: 12px;
 }
+.join-w {
+  margin-bottom: 12px;
+}
+.date-project a {
+  margin-bottom: 12px;
+}
+.project {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+
+  transition: all 0.3s ease-in-out;
+}
+.project:is(:link, :visited) {
+  color: #fff;
+}
+.project:is(:hover, :active) {
+  background-color: #fff;
+  color: #000;
+}
